@@ -7,7 +7,7 @@ Each network is a cluster of stations. There is a long list of networks, contact
 This is a sample of networks (I will be adding more):
 
 | network ID | state |
--------------
+| -------  | --- | 
 |AK_ASOS | Alaska, US|
 |AQ__ASOS | Antarctica|
 |AR__ASOS | Argentina|
