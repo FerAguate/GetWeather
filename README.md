@@ -32,7 +32,7 @@ How to use the function - Example
 
 To run the function you will need packages lubridate and jsonlite. Install those with install.packages() and then you will be ready to source the function with:
 ```R
-
+source('https://raw.githubusercontent.com/FerAguate/GetWeather/master/GetWeather.R')
 ```
 
 ## To get a list of station IDs, select a network first:
@@ -81,4 +81,15 @@ The column keys are:
 tmpf = Temperature (F)
 dwpf = Dew point (F)
 relh = Relative humidity (%)
+drct = Wind direction (degrees)
+sknt = Wind speed (knots)
+p01i = Hourly cumulative precipitation. See: https://github.com/rmcd1024/daily_precipitation_totals
+alti = Pressure altimeter (inches)
+mslp = Sea level pressure (millibar)
+vsby = Visibility (miles)
+gust = Wind gust (knots)
+skyc1 = Sky level 1 coverage
+skyl1 = Sky level 1 altitude (feet)
+wxcodes = Present weather codes
+feel = apparent temperature (F)
 
