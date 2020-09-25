@@ -6,24 +6,27 @@ This data is made accesible by the Iowa Environmental Mesonet (IEM), which colle
 Each network is a cluster of stations. There is a long list of networks, contact me if you cannot find the one that interests you (fmaguate@gmail.com).
 This is a sample of networks (I will be adding more):
 
-AK_ASOS = Alaska, US
-AQ__ASOS = Antarctica
-AR__ASOS = Argentina
-AU__ASOS = Australia
-BR__ASOS = Brasil
-CN__ASOS = China
-DK__ASOS = Denmark
-FL_ASOS = Florida, US
-IA_ASOS = Iowa, US
-IT__ASOS = Italy
-MX__ASOS = Mexico
-MI_ASOS = Michigan, US
-KP__ASOS = North Korea
-PL__ASOS = Poland
-RU__ASOS = Russia
-ES__ASOS = Spain
-UY__ASOS = Uruguay
-WI_ASOS = Wisconsin, US
+| network ID | state |
+-------------
+|AK_ASOS | Alaska, US|
+|AQ__ASOS | Antarctica|
+|AR__ASOS | Argentina|
+|AU__ASOS | Australia|
+|BR__ASOS | Brasil|
+|CN__ASOS | China|
+|DK__ASOS | Denmark|
+|FL_ASOS | Florida, US|
+|IA_ASOS | Iowa, US|
+|IT__ASOS | Italy|
+|MX__ASOS | Mexico|
+|MI_ASOS | Michigan, US|
+|KP__ASOS | North Korea|
+|PL__ASOS | Poland|
+|RU__ASOS | Russia|
+|ES__ASOS | Spain|
+|UY__ASOS | Uruguay|
+|WI_ASOS | Wisconsin, US|
+
 
 How to use the function
 --------
