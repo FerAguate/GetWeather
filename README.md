@@ -76,20 +76,24 @@ head(Turin_we) # print the first 6 rows of data
 6              M              M 34.86 LIMA 011250Z 17003KT 140V230 1300 BR FEW020 03/03 Q1012
 ```
 
-The column keys are:
+ 
+| column | key |
+| -------  | --- | 
+|tmpf | Temperature (F) |
+|dwpf | Dew point (F) |
+|relh | Relative humidity (%) |
+|drct | Wind direction (degrees) |
+|sknt | Wind speed (knots) |
+|p01i | Hourly cumulative precipitation (inches) |
+|alti | Pressure altimeter (inches) |
+|mslp | Sea level pressure (millibar) |
+|vsby | Visibility (miles) |
+|gust | Wind gust (knots) |
+|skyc1 | Sky level 1 coverage |
+|skyl1 | Sky level 1 altitude (feet) |
+|wxcodes | Present weather codes |
+|feel | apparent temperature (F) |
 
-tmpf = Temperature (F)
-dwpf = Dew point (F)
-relh = Relative humidity (%)
-drct = Wind direction (degrees)
-sknt = Wind speed (knots)
-p01i = Hourly cumulative precipitation. See: https://github.com/rmcd1024/daily_precipitation_totals
-alti = Pressure altimeter (inches)
-mslp = Sea level pressure (millibar)
-vsby = Visibility (miles)
-gust = Wind gust (knots)
-skyc1 = Sky level 1 coverage
-skyl1 = Sky level 1 altitude (feet)
-wxcodes = Present weather codes
-feel = apparent temperature (F)
+To obtain daily precipitation check: https://github.com/rmcd1024/daily_precipitation_totals
+
 
