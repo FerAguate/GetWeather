@@ -2,7 +2,6 @@
 
 library(lubridate, verbose = F)
 library(jsonlite, verbose = F)
-library(tidyverse, verbose = F)
 
 GetWeather <- function(time_period = NA, network = "IA_ASOS", sid = NA) {
   
