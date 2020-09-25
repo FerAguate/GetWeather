@@ -25,18 +25,15 @@ ES__ASOS = Spain
 UY__ASOS = Uruguay
 WI_ASOS = Wisconsin, US
 
-How to use the function - Example
+How to use the function
 --------
-
-## Set up:
 
 To run the function you will need packages lubridate and jsonlite. Install those with install.packages() and then you will be ready to source the function with:
 ```R
 source('https://raw.githubusercontent.com/FerAguate/GetWeather/master/GetWeather.R')
 ```
 
-## To get a list of station IDs, select a network first:
-
+To get a list of station IDs, select a network first.
 We will select Italy as example, and print the last 6 stations
 ```R
 tail(GetWeather(network = "IT__ASOS"))
